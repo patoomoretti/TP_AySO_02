@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Please ask your administrator.
+=======
+Usuario=vagrant
+>>>>>>> d9751bfcbe975b87faf9c02c37bc4ddadf20ce8e
