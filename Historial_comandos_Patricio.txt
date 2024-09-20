@@ -1,0 +1,308 @@
+    1  pwd
+    2  ls -l .ssh/
+    3  ssh-keygen --help
+    4  ssh-keygen -t ed25519
+    5  ls -l .ssh/
+    6  cat /home/vagrant/.ssh/id_ed25519.pub
+    7  ll
+    8  cd repogit/
+    9  ll
+   10  git clone git@github.com:patoomoretti/TP_AySO_02.git
+   11  ll
+   12  pwd
+   13  ls -l ../.ssh/
+   14  cd TP_AySO_02/
+   15  echo "hola mundo"
+   16  echo "hola mundo" > unarchivo
+   17  ls -l
+   18  cat unarchivo 
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "add: primer commit"
+   23  git config --global user.email "patriciomoretti@hotmail.com
+   24  git config --global user.name "patoomoretti"
+   25  git commit -m "add: primer commit"
+   26  ls
+   27  man 
+   28  man man 
+   29  man bin
+   30  ls
+   31  cd repogit/
+   32  ls
+   33  cd UTN-FRA_SO_onBording/
+   34  ls
+   35  man man 
+   36  man passwd
+   37  man mandb
+   38  cd ..
+   39  ls
+   40  cd vagrant/
+   41  ls
+   42  cd repogit/
+   43  ls
+   44  cd ..
+   45  wc << CORTE
+   46  linea 1
+   47  CORTE
+   48  cd repogit/
+   49  ls
+   50  cd TP_AySO_02/
+   51  ls
+   52  git add .
+   53  got commit -m "add: primer commit"
+   54  git commit -m "add: primer commit"
+   55  git config --global user.email patriciomoretti@hotmail.com
+   56  git config --global user.name patoomoretti
+   57  git push 
+   58  git status
+   59  git commit -m "add: primer commit"
+   60  git push 
+   61  history
+   62  /proc/cpuinfo
+   63  sudo /proc/cpuinfo
+   64  /proc
+   65  updatedb/cpuinfo
+   66  ls
+   67  cd carpeta_compartida/
+   68  ls
+   69  cd ..
+   70  /proc/cpuinfo
+   71  man man
+   72  grep
+   73  grep "model name"
+   74  cd /proc/cpuinfo
+   75  cd /proc
+   76  ls
+   77  cd cpuinfo
+   78  grep cpuinfo
+   79  cpuinfo
+   80  cpu-info
+   81  sudo cpu-info
+   82  /proc
+   83  cd /proc
+   84  ls
+   85  > datos_usuario.txt
+   86  cpuinfo
+   87  command "cpu-info"
+   88  grep "cpu-info"
+   89  ls
+   90  git add cpuinfo
+   91  git status
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd home/
+   97  ls
+   98  cd ..
+   99  cd tmp/
+  100  ls
+  101  cd ..
+  102  cd proc/
+  103  ls
+  104  git config --global user.email patriciomoretti@hotmail.com
+  105  git config --global user.name patoomoretti
+  106  git status
+  107  git branch
+  108  man man
+  109  man user
+  110  man man 
+  111  ls
+  112  cd repogit/
+  113  ls
+  114  cd TP_AySO_02/
+  115  ls
+  116  grep cpuinfo /proc
+  117  cd ..
+  118  ls
+  119  cd vagrant/
+  120  ls
+  121  grep cpuinfo
+  122  grep cpuinfo /proc/cpuinfo
+  123  ls
+  124  /proc/cpuinfo
+  125  sudo /proc/cpuinfo
+  126  ls
+  127  /proc
+  128  man delete
+  129  cd repogit/
+  130  ls
+  131  cd /proc
+  132  ls
+  133  cd cpuinfo
+  134  grep cpuinfo
+  135  man grep
+  136  /cpuinfo
+  137  git add cpuinfo
+  138  git branch git@github.com:patoomoretti/TP_AySO_02.git
+  139  git --help
+  140  git branch
+  141  git status
+  142  git add .
+  143  ls
+  144  history
+  145  ls
+  146  git add cpuinfo
+  147  echo "$(cpuinfo)" > datos_usuario.txt
+  148  apt install cpu-info
+  149  cd ..
+  150  ls
+  151  cd home
+  152  ls
+  153  cd vagrant/
+  154  ls
+  155  cd repogit/
+  156  cd TP_AySO_02/
+  157  ls
+  158  echo "$(cpuinfo)" > datos_usuario.txt
+  159  echo "$(cpu-info)" > datos_usuario.txt
+  160  git add .
+  161  ls
+  162  git rm --cached TP_AySO_02
+  163  cd TP_AySO_02/
+  164  -f
+  165  git rm --cached TP_AySO_02 
+  166  cd ..
+  167  git rm --cached TP_AySO_02
+  168  git rm -f TP_AySO_02/
+  169  ls
+  170  cd TP_AySO_02/
+  171  ls
+  172  git rm -f TP_AySO_02
+  173  cd ..
+  174  ls
+  175  rm TP_AySO_02
+  176  sudo rm TP_AySO_02
+  177  rm -f TP_AySO_02
+  178  rm -f TP_AySO_02/
+  179  git help submodule
+  180  man sort via key
+  181  grep usuarios /etc/passwd
+  182  ls
+  183  /etc/passwd
+  184  sudo /etc/passwd
+  185  cd ..
+  186  /etc/passwd
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  ls
+  191  /etc/passwd
+  192  sudo /etc/passwd
+  193  cd home
+  194  ls
+  195  /etc/passwd
+  196  cd vagrant/
+  197  ls
+  198  grep /etc/passwd
+  199  grep users /etc/passwd
+  200  ls
+  201  cd repogit/
+  202  ls
+  203  cd TP_AySO_02/
+  204  ls
+  205  echo "Alumno: Patricio
+  206  Division: 314
+  207  Turno: Noche" > README.md
+  208  git add README.md 
+  209  git status
+  210  git commit -m "Modificado con nombre alumno, division y turno"
+  211  git push
+  212  git branch -main
+  213  git pull
+  214  git config --global
+  215  git status
+  216  git restore TP_AySO_02
+  217  git status
+  218  git add .
+  219  git commit -m "lala"
+  220  git pull 
+  221  git status
+  222  git branch -main -main
+  223  git status
+  224  git commit -a
+  225  git status
+  226  ls
+  227  git add README.md 
+  228  git status
+  229  git pull
+  230  git add .
+  231  git status
+  232  git commit -m "modificado" 
+  233  git push
+  234  git status
+  235  git rm TP_AySO_02/
+  236  ls
+  237  man delete
+  238  man de
+  239  git status
+  240  man man
+  241  history
+  242  history-a
+  243  history -a
+  244  $HOME/.bash_history
+  245  sudo $HOME/.bash_history
+  246  ls
+  247  history -a
+  248  history -a $HOME/.bash_history > istorial_comandos_Patricio.txt
+  249  git rm istorial_comandos_Patricio.txt 
+  250  ls
+  251  git --help
+  252  git mv istorial_comandos_Patricio.txt 
+  253  rm istorial_comandos_Patricio.txt 
+  254  ls
+  255  history -a $HOME/.bash_history > Historial_comandos_Patricio.txt
+  256  git add Historial_comandos_Patricio.txt 
+  257  git commit -m "Historial comandos"
+  258  git push 
+  259  git pull
+  260  git status
+  261  ls
+  262  git add Historial_comandos_Patricio.txt 
+  263  git status
+  264  git push 
+  265  history -a 
+  266  history
+  267  $HOME/.bash_history
+  268  cd ..
+  269  ls
+  270  cd vagrant/
+  271  ./bash_history
+  272  ls
+  273  cd ./bash_history
+  274  cd repogit/
+  275  cd TP_AySO_02/
+  276  ls
+  277  echo "$($HOME/.bash_history)" > Historial_comandos_Patricio.txt 
+  278  append $HOME/.bash_history > Historial_comandos_Patricio.txt 
+  279  man append
+  280  append
+  281  grep .bash_history
+  282  cp $HOME/.bash_history > Historial_comandos_Patricio.txt 
+  283  history
+  284  cp history
+  285  cp --help
+  286  cd ..
+  287  /.bash_history
+  288  cd bash_history
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd home
+  293  ls
+  294  cd vagrant/
+  295  ls
+  296  history -a
+  297  history
+  298  cd repogit/
+  299  cd TP_AySO_02/
+  300  ls
+  301  cp history -a $HOME/.bash_history
+  302  cp $HOME/.bash_history
+  303  cp /home/vagrant/.bash_history
+  304  ls
+  305  cd repogit/
+  306  cd TP_AySO_02/
+  307  ls
+  308  echo "$(history)" > Historial_comandos_Patricio.txt 
